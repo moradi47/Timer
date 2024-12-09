@@ -45,6 +45,7 @@
     display:none;
     flex-direction: column;
     justify-content: flex-start;
+    align-items: center;
     z-index: 10;
     position: fixed;
     top:120px;
@@ -55,4 +56,30 @@
 
 .icon-close{
     align-self: flex-end;
+}
+
+.timer{
+    width:60%;
+    height: 60%;
+    background-image: linear-gradient(to right, #6990B1, #6C93A9, #719EAD, #72A8B3, #79AEAB) ;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.time{
+    width:120px;
+    height: 100px;
+    background-color: inherit;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    border:none;
+    margin-left: 20px;
+    outline: none;
+}
+
+.semicolon{
+    font-size: 100px;
 }
