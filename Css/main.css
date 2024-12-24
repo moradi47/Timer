@@ -7,7 +7,7 @@
 .container{
     width:100%;
     height: 100vh;
-    background-image: url('../image/background.webp');
+    background-color: #A7EBF4;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     display:flex;
@@ -29,7 +29,7 @@
 .btn{
     width:400px;
     height:max-content;
-    background-color: #232D40;
+    background-color:#0681BE;
     color:#fff;
     border:none;
     border-radius: 5px;
@@ -39,47 +39,97 @@
 }
 
 .modal{
-    width:80%;
-    height: 380px;
-    background-image: linear-gradient(to right,#DBDBDB, #F1F1F1);
+    width:40%;
+    height: 400px;
+    background-color:#02ACC3;
     display:none;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     z-index: 10;
     position: fixed;
-    top:120px;
-    left:140px;
+    top:110px;
+    left:400px;
     border-radius: 10px;
-    padding: 10px;
+    padding-bottom: 30px;
 }
 
 .icon-close{
     align-self: flex-end;
+    padding: 15px 15px 0 0;
+    color:#fff;
+}
+
+.modal-header{
+    width:100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color:#fff;
 }
 
 .timer{
-    width:60%;
+    width:120%;
     height: 60%;
-    background-image: linear-gradient(to right, #6990B1, #6C93A9, #719EAD, #72A8B3, #79AEAB) ;
+    background-color: #FFFFFF;
+    border-radius: 10px;
     display:flex;
     justify-content: space-evenly;
     align-items: center;
     margin-top: 50px;
 }
 
+.container-time{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .time{
-    width:120px;
-    height: 100px;
-    background-color: inherit;
-    font-size: 100px;
+    width:140px;
+    height: 140px;
+    font-size: 80px;
+    border: none;
     display: flex;
     justify-content: center;
-    border:none;
-    margin-left: 20px;
+    align-content: center;
+    align-self: center;
+    padding: 20px  25px;
     outline: none;
 }
 
 .semicolon{
     font-size: 100px;
+    color:#EAEAEA;
+    padding-bottom: 25px;
+}
+
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+
+.label{
+    color:#b3b2b2;
+    padding-bottom: 30px;
+}
+
+.btn-start{
+    width:50px;
+    height: 50px;
+    background-color: #027DC1;
+    color:#fff;
+    border-radius: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position:fixed;
+    bottom: 128px;
+}
+
+.play-icon{
+    font-size: 20px;
 }
